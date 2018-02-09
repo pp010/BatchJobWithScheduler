@@ -1,1 +1,1 @@
-It is a direct copy of https://github.com/spring-guides/gs-batch-processing. It has only scheduler implemented on top of it.
+It is a direct copy of https://github.com/spring-guides/gs-batch-processing. It has only a scheduler implemented on top of it. It avoids task triggering at start up and runs it at a specific cron scheduled time.
