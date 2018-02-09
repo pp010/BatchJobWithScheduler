@@ -21,7 +21,7 @@ public class JobScheduler {
 	@Autowired
 	Job job;
 
-	@Scheduled(fixedRate = 600000)
+	@Scheduled(cron = "0 32 18 1/1 * ?")
 	public void runJob() throws JobExecutionAlreadyRunningException, JobRestartException,
 			JobInstanceAlreadyCompleteException, JobParametersInvalidException {
 		
